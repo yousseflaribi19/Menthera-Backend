@@ -2202,3 +2202,46 @@
 2025-11-18 23:54:09 [31merror[39m: [31mRequest failed with status code 500[39m
 2025-11-19 00:09:42 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
 2025-11-19 11:35:34 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-19 13:58:18 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-19 13:58:18 [32minfo[39m: [32m Environnement: development[39m
+2025-11-19 13:58:18 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-19 13:58:18 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-19 13:58:18 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-19 14:18:52 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 14:34:10 [31merror[39m: [31mToken expiré[39m
+2025-11-19 15:09:34 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 15:26:34 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 15:28:47 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 15:33:15 [31merror[39m: [31mRoute non trouvee: /api/v1/voice/sessions/691dd01305cdb98c8be2b8c5[39m
+2025-11-19 15:33:22 [31merror[39m: [31mRoute non trouvee: /api/v1/voice/sessions/691cfa4c10dab5a408ca712c[39m
+2025-11-19 15:34:41 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 15:35:52 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 15:36:25 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 15:36:31 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 15:44:38 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-19 15:44:38 [32minfo[39m: [32m Environnement: development[39m
+2025-11-19 15:44:38 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-19 15:44:38 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-19 15:44:38 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-19 16:12:55 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 16:13:06 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 16:20:55 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 16:21:54 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-19 16:23:35 [31merror[39m: [31mRoute non trouvee: /api/v1/voice/sessions/691de062d12dbecf921756dd[39m
+2025-11-19 16:46:37 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-19 16:46:44 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-19 16:47:50 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-19 16:49:00 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-19 16:49:06 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-19 16:49:12 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-19 16:49:36 [32minfo[39m: [32mNouvel utilisateur créé: ali@gmail.com[39m
+2025-11-19 16:50:03 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-20 14:24:31 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-20 23:36:55 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 23:36:55 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 23:36:55 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 23:36:55 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 23:36:55 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 23:37:56 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-21 10:38:14 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-22 08:55:10 [33mwarn[39m: [33m MongoDB déconnecté[39m
