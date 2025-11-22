@@ -77,6 +77,10 @@ class AuthService {
       throw ApiError.unauthorized('Email ou mot de passe incorrect');
     }
 
+    if (user.isActive === false) {
+    throw ApiError.forbidden('Votre compte a été suspendu. Contactez l\'administrateur.');
+  }
+
     // Vérifier si l'utilisateur utilise l'authentification locale
     if (user.authProvider !== 'local' || !user.password) {
       throw ApiError.badRequest(
@@ -88,11 +92,6 @@ class AuthService {
     const isPasswordMatch = await user.comparePassword(password);
     if (!isPasswordMatch) {
       throw ApiError.unauthorized('Email ou mot de passe incorrect');
-    }
-
-    // Vérifier si le compte est actif
-    if (!user.isActive) {
-      throw ApiError.forbidden('Votre compte a été désactivé. Contactez le support');
     }
 
     // Mettre à jour lastLogin
@@ -125,9 +124,9 @@ class AuthService {
       throw ApiError.notFound('Utilisateur non trouvé');
     }
 
-    if (!user.isActive) {
-      throw ApiError.forbidden('Compte désactivé');
-    }
+    if (user.isActive === false) {
+    throw ApiError.forbidden('Votre compte a été suspendu. Contactez l\'administrateur.');
+  }
 
     return user;
   }
@@ -142,15 +141,21 @@ class AuthService {
       const decoded = jwt.verify(refreshToken, config.jwt.secret);
       
       const user = await User.findById(decoded.id);
-      if (!user || !user.isActive) {
-        throw ApiError.unauthorized('Token invalide');
-      }
+      if (!user) {
+      throw ApiError.unauthorized('Utilisateur non trouvé');
+    }
+    if (user.isActive === false) {
+      throw ApiError.forbidden('Votre compte a été suspendu. Contactez l\'administrateur.');
+    }
 
       const tokens = this.generateAuthTokens(user._id);
       
       return tokens;
     } catch (error) {
+      if (error.name === 'JsonWebTokenError' || error.name === 'TokenExpiredError') {
       throw ApiError.unauthorized('Refresh token invalide ou expiré');
+    }
+    throw error;
     }
   }
 

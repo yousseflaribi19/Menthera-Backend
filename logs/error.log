@@ -462,3 +462,10 @@
 
 2025-11-21 08:48:50 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
 
+2025-11-22 19:26:51 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-22 19:31:41 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-22 20:50:25 [31merror[39m: [31mToken expiré[39m
+2025-11-22 20:50:25 [31merror[39m: [31mToken expiré[39m
+2025-11-22 20:52:01 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m
+2025-11-22 20:52:09 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m
+2025-11-22 20:55:10 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m

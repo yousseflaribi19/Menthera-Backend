@@ -2449,3 +2449,155 @@
 2025-11-21 08:46:55 [32minfo[39m: [32m[INACTIVITY JOB] Sent 6 inactivity notifications[39m
 2025-11-21 08:48:50 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
 >>>>>>> 3e357334ee2fef663def5c6d31814db4aaa1cd62
+2025-11-22 19:26:26 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1774 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 19:26:26 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 19:26:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 19:26:31 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T18:26:31.441Z[39m
+2025-11-22 19:26:31 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 19:26:31 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 19:26:31 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 19:26:51 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-22 19:26:59 [32minfo[39m: [32mNouvel utilisateur créé: admin@gmail.com[39m
+2025-11-22 19:31:41 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-22 19:32:44 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-22 19:57:31 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-22 19:59:04 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-22 20:00:54 [32minfo[39m: [32mDéconnexion utilisateur : admin@gmail.com[39m
+2025-11-22 20:00:58 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-22 20:01:01 [32minfo[39m: [32mDéconnexion utilisateur : admin@gmail.com[39m
+2025-11-22 20:01:08 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-22 20:24:31 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1715 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:24:31 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:24:31 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:24:36 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:24:36.847Z[39m
+2025-11-22 20:24:36 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:24:36 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:24:36 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:34:03 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1706 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:34:03 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:34:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:34:08 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:34:08.119Z[39m
+2025-11-22 20:34:08 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:34:08 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:34:08 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:36:10 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1704 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:36:10 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:36:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:36:15 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:36:15.529Z[39m
+2025-11-22 20:36:15 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:36:15 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:36:15 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:48:59 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:48:59 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1691 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:00 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:00 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:00 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:00 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:00 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:00 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:05 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:49:05.011Z[39m
+2025-11-22 20:49:05 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:49:05 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:49:05 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:49:28 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1691 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:28 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:28 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:31 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:31 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:31 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:37 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:37 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:41 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:41 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:41 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:43 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:43 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:43 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:45 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:49:45 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:49:45 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:49:50 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:49:50.425Z[39m
+2025-11-22 20:49:50 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:49:50 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:49:50 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:50:04 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1690 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 20:50:04 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 20:50:04 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 20:50:09 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T19:50:09.757Z[39m
+2025-11-22 20:50:09 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 20:50:09 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 20:50:09 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-22 20:50:25 [31merror[39m: [31mToken expiré[39m
+2025-11-22 20:50:25 [31merror[39m: [31mToken expiré[39m
+2025-11-22 20:52:01 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m
+2025-11-22 20:52:09 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m
+2025-11-22 20:55:10 [31merror[39m: [31mVotre compte a été suspendu. Contactez l'administrateur.[39m
+2025-11-22 20:55:24 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-22 21:01:34 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 1678 minute(s) (day=1 hour=1:0)[39m
+2025-11-22 21:01:34 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m Environnement: development[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-22 21:01:34 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-22 21:01:39 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-15T20:01:39.354Z[39m
+2025-11-22 21:01:39 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-22 21:01:39 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-22 21:01:39 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
