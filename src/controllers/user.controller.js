@@ -54,9 +54,15 @@ static async getCurrentUser(req, res, next) {
       authProvider: userDoc.authProvider,
       lastLogin: userDoc.lastLogin,
       createdAt: userDoc.createdAt,
-      isPremium,                          // le flag calculé
-      premiumExpiresAt: userDoc.premiumExpiresAt, // si tu veux afficher la date
-      stripeSubscriptionId: userDoc.stripeSubscriptionId // optionnel
+      isPremium,                         
+      premiumExpiresAt: userDoc.premiumExpiresAt, 
+      stripeSubscriptionId: userDoc.stripeSubscriptionId,
+
+      lastEmotion: userDoc.lastEmotion,
+      emotionHistory: userDoc.emotionHistory ?? [],
+      activeExercises: userDoc.activeExercises ?? [],
+      lastSummary: userDoc.lastSummary ?? null,
+      lastDangerLevel: userDoc.lastDangerLevel ?? null
     });
 
     res.status(response.statusCode).json(response);

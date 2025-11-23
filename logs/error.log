@@ -497,3 +497,11 @@
 2025-11-23 10:17:15 [31merror[39m: [31mlocalStorage is not defined[39m
 2025-11-23 10:40:03 [31merror[39m: [31mToken expiré[39m
 2025-11-23 10:40:03 [31merror[39m: [31mToken expiré[39m
+2025-11-23 16:37:32 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
+2025-11-23 16:39:40 [31merror[39m: [31mToken invalide[39m
+2025-11-23 17:55:24 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
+2025-11-23 17:56:55 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 17:57:07 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 18:11:12 [31merror[39m: [31mRoute non trouvee: /avatars/69178b67c0effed2e9edbffc_1763917209558.jpg[39m
+2025-11-23 18:11:13 [31merror[39m: [31mRoute non trouvee: /favicon.ico[39m
+2025-11-23 19:12:29 [31merror[39m: [31mRequest failed with status code 400[39m

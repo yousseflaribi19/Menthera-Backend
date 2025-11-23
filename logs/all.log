@@ -1,0 +1,96 @@
+2025-11-23 16:36:04 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 504 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 16:36:04 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 16:36:04 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T15:36:09.068Z[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[INACTIVITY JOB] Found 3 inactive users[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68fab75cb51679f07b6bd0de[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[NOTIF] Created inactivity for user 69088a6549f5a862b13424fc[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6910a9f04d522b252e7d8558[39m
+2025-11-23 16:36:09 [32minfo[39m: [32m[INACTIVITY JOB] Sent 3 inactivity notifications[39m
+2025-11-23 16:36:47 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 16:37:32 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
+2025-11-23 16:38:07 [32minfo[39m: [32m[NOTIF] Created challenge_submitted for user 69178b67c0effed2e9edbffc[39m
+2025-11-23 16:39:40 [31merror[39m: [31mToken invalide[39m
+2025-11-23 17:17:21 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 17:18:15 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 462 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 17:18:15 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 17:18:15 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T16:18:20.161Z[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[INACTIVITY JOB] Found 4 inactive users[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68fab75cb51679f07b6bd0de[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[NOTIF] Created inactivity for user 69088a6549f5a862b13424fc[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6910a9f04d522b252e7d8558[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-23 17:18:20 [32minfo[39m: [32m[INACTIVITY JOB] Sent 4 inactivity notifications[39m
+2025-11-23 17:24:48 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 17:47:08 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 433 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 17:47:08 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 17:47:08 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T16:47:13.332Z[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[INACTIVITY JOB] Found 4 inactive users[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68fab75cb51679f07b6bd0de[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[NOTIF] Created inactivity for user 69088a6549f5a862b13424fc[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6910a9f04d522b252e7d8558[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-23 17:47:13 [32minfo[39m: [32m[INACTIVITY JOB] Sent 4 inactivity notifications[39m
+2025-11-23 17:55:09 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 17:55:24 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
+2025-11-23 17:56:44 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 423 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 17:56:44 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 17:56:44 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T16:56:49.136Z[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[INACTIVITY JOB] Found 4 inactive users[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68fab75cb51679f07b6bd0de[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[NOTIF] Created inactivity for user 69088a6549f5a862b13424fc[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6910a9f04d522b252e7d8558[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-23 17:56:49 [32minfo[39m: [32m[INACTIVITY JOB] Sent 4 inactivity notifications[39m
+2025-11-23 17:56:55 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 17:57:07 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 18:05:12 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 18:11:12 [31merror[39m: [31mRoute non trouvee: /avatars/69178b67c0effed2e9edbffc_1763917209558.jpg[39m
+2025-11-23 18:11:13 [31merror[39m: [31mRoute non trouvee: /favicon.ico[39m
+2025-11-23 18:59:26 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 19:12:10 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 19:12:29 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 19:15:20 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 345 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 19:15:20 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 19:15:20 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T18:15:25.042Z[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[INACTIVITY JOB] Found 4 inactive users[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68fab75cb51679f07b6bd0de[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[NOTIF] Created inactivity for user 69088a6549f5a862b13424fc[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6910a9f04d522b252e7d8558[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-23 19:15:25 [32minfo[39m: [32m[INACTIVITY JOB] Sent 4 inactivity notifications[39m
+2025-11-23 19:16:02 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 19:16:39 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 19:20:51 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 19:21:21 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-23 19:27:33 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-23 19:27:46 [31merror[39m: [31mRequest failed with status code 400[39m
