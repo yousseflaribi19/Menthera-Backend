@@ -9,6 +9,52 @@ async function dashboard(req, res, next){
   } catch (err) { next(err); }
 }
 
+// New endpoint for average voice messages per user
+async function averageVoiceMessages(req, res, next){
+  try {
+    const stats = await AdminService.getAverageVoiceMessagesPerUser();
+    return res.json(ApiResponse.success(stats, 'Average voice messages per user'));
+  } catch (err) { next(err); }
+}
+
+// New endpoint for community emotion trends
+async function communityEmotionTrends(req, res, next){
+  try {
+    const period = req.query.period || 'week';
+    const stats = await AdminService.getCommunityEmotionTrends(period);
+    return res.json(ApiResponse.success(stats, `Community emotion trends for ${period}`));
+  } catch (err) { next(err); }
+}
+
+// New endpoint for user emotional curve
+async function userEmotionalCurve(req, res, next){
+  try {
+    const userId = req.params.userId;
+    if (!userId) {
+      throw ApiError.badRequest('User ID is required');
+    }
+    const stats = await AdminService.getUserEmotionalCurve(userId);
+    return res.json(ApiResponse.success(stats, 'User emotional curve'));
+  } catch (err) { next(err); }
+}
+
+// New endpoint for messages over time
+async function messagesOverTime(req, res, next){
+  try {
+    const period = req.query.period || 'week';
+    const stats = await AdminService.getMessagesOverTime(period);
+    return res.json(ApiResponse.success(stats, `Messages over time for ${period}`));
+  } catch (err) { next(err); }
+}
+
+// New endpoint for general rating statistics
+async function generalRatingStats(req, res, next){
+  try {
+    const stats = await AdminService.getGeneralRatingStats();
+    return res.json(ApiResponse.success(stats, 'General rating statistics'));
+  } catch (err) { next(err); }
+}
+
 async function usersList(req, res, next){
   try {
     const page = parseInt(req.query.page || '1', 10);
@@ -53,6 +99,11 @@ async function deleteUser(req, res, next){
 
 module.exports = {
   dashboard,
+  averageVoiceMessages,
+  communityEmotionTrends,
+  userEmotionalCurve,
+  messagesOverTime,
+  generalRatingStats,
   usersList,
   getUser,
   createUser,

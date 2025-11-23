@@ -20,6 +20,13 @@ router.post('/admin/run-weekly-summaries', adminOnly, async (req, res, next) => 
 // Dashboard
 router.get('/admin/dashboard', adminOnly, AdminController.dashboard);
 
+// New statistics endpoints
+router.get('/admin/statistics/voice-messages-average', adminOnly, AdminController.averageVoiceMessages);
+router.get('/admin/statistics/community-emotions', adminOnly, AdminController.communityEmotionTrends);
+router.get('/admin/statistics/user-emotions/:userId', adminOnly, AdminController.userEmotionalCurve);
+router.get('/admin/statistics/messages-over-time', adminOnly, AdminController.messagesOverTime);
+router.get('/admin/statistics/general-ratings', adminOnly, AdminController.generalRatingStats);
+
 // Users CRUD
 router.get('/admin/users', adminOnly, AdminController.usersList);
 router.get('/admin/users/:id', adminOnly, AdminController.getUser);
