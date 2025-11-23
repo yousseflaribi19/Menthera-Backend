@@ -2790,3 +2790,32 @@
 2025-11-23 11:02:20 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
 2025-11-23 11:05:30 [32minfo[39m: [32mDéconnexion utilisateur : admin@gmail.com[39m
 2025-11-23 11:05:37 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-23 11:36:50 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 803 minute(s) (day=1 hour=1:0)[39m
+2025-11-23 11:36:50 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m Environnement: development[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-23 11:36:50 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-23 11:36:55 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-16T10:36:55.681Z[39m
+2025-11-23 11:36:55 [32minfo[39m: [32m[INACTIVITY JOB] Found 1 inactive users[39m
+2025-11-23 11:36:55 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f22d36e0170e1ba0fca47[39m
+2025-11-23 11:36:55 [32minfo[39m: [32m[INACTIVITY JOB] Sent 1 inactivity notifications[39m
+2025-11-23 11:40:14 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
+2025-11-23 15:26:44 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 15:27:51 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 15:43:08 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 15:43:56 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 15:44:23 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 15:44:25 [31merror[39m: [31mPath collision at participants[39m
+2025-11-23 15:44:51 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 15:45:06 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 15:48:38 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 15:54:30 [32minfo[39m: [32mConnexion réussie: lina@gmail.com[39m
+2025-11-23 16:09:14 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 16:10:12 [31merror[39m: [31mToken expiré[39m
+2025-11-23 16:10:12 [32minfo[39m: [32mDéconnexion utilisateur : admin@gmail.com[39m
+2025-11-23 16:12:34 [31merror[39m: [31mRoute non trouvee: /api/v1/user/me[39m
+2025-11-23 16:12:36 [31merror[39m: [31mToken expiré[39m
+2025-11-23 16:19:12 [32minfo[39m: [32mConnexion réussie: admin@gmail.com[39m
