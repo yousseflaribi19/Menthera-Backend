@@ -115,6 +115,7 @@ class AuthController {
         name: user.name,
         email: user.email,
         avatar: user.avatar,
+        role: user.role,
         isPremium,
         premiumExpiresAt: sub ? sub.expiresAt : null,
         authProvider: user.authProvider,
@@ -122,7 +123,7 @@ class AuthController {
         lastLogin: user.lastLogin,
         createdAt: user.createdAt,
       });
-
+      console.log("USER ROLE SENT:", user.role);
       res.status(response.statusCode).json(response);
     } catch (error) {
       next(error);
