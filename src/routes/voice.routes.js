@@ -5,12 +5,13 @@ const { loadSessionIfAny, enforceDailyQuota } = require('../middleware/session.m
 const enforcePremiumLimits = require('../middleware/premium.middleware');
 const Voice = require('../controllers/voice.controller');
 
-const router = express.Router();
+  const router = express.Router();
 
-// Historique et timeline 
-router.get('/sessions', protect, Voice.listSessionsCtrl);
-router.get('/sessions/:dbId/timeline', protect, Voice.getTimelineCtrl);
-router.get('/sessions/:dbId/audio/:messageId', protect, Voice.streamAudioCtrl);
+  // Historique et timeline 
+  router.get('/sessions', protect, Voice.listSessionsCtrl);
+  router.get('/sessions/:dbId/timeline', protect, Voice.getTimelineCtrl);
+  router.get('/sessions/:dbId/audio/:messageId', protect, Voice.streamAudioCtrl);
+
 
 // Démarrage / flux / clôture d'une séance
 router.post('/sessions/start', protect, enforceDailyQuota, Voice.startSession);
@@ -23,8 +24,9 @@ router.post(
   Voice.endSessionCtrl
 );
 
-// Redémarrer une nouvelle séance à partir d’une close
-router.post('/sessions/restart', protect, Voice.restartFromPreviousCtrl);
+  // Redémarrer une nouvelle séance à partir d’une close
+  router.post('/sessions/restart', protect, Voice.restartFromPreviousCtrl);
+
 
 module.exports = router;
   

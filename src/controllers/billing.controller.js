@@ -88,6 +88,13 @@ class BillingController {
   // GET SESSION STATUS
   static async getSessionStatus(req, res) {
     try {
+      if (!stripe) {
+        return res.json({
+          success: false,
+          code: 503,
+          message: "Stripe not configured."
+        });
+      }
       const { sessionId } = req.params;
       const session = await StripeService.getCheckoutSession(sessionId);
 

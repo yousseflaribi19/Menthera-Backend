@@ -12,6 +12,8 @@ const userSchema = new mongoose.Schema({
 
   avatar: { type: String, default: null },
   authProvider: { type: String, enum: ['local','google','facebook'], default: 'local' },
+  // Role-based access control
+  role: { type: String, enum: ['user','admin'], default: 'user', index: true },
 
 stripeSubscriptionId: { type: String, index: true, default: null },
   isPremium: { type: Boolean, default: false },
@@ -50,6 +52,8 @@ userSchema.pre('save', async function(next){
 });
 
 userSchema.methods.comparePassword = function(p){ return bcrypt.compare(p, this.password); };
+
+userSchema.methods.isAdmin = function(){ return this.role === 'admin'; };
 
 // Async helper: checks linked Subscription document if present, otherwise loads it.
 /*userSchema.methods.isActivePremium = async function(){

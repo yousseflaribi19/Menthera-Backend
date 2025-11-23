@@ -23,8 +23,8 @@ const protect = async (req, _res, next) => {
       throw ApiError.unauthorized('Utilisateur non trouvé');
     }
 
-    if (!user.isActive) {
-      throw ApiError.forbidden('Compte désactivé');
+     if (user.isActive === false) {
+      throw ApiError.forbidden('Votre compte a été suspendu. Contactez l\'administrateur.');
     }
 
     req.user = user;

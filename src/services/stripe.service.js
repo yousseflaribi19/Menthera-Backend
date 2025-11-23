@@ -1,5 +1,11 @@
 const Stripe = require('stripe');
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const logger = require('../utils/logger');
+
+const stripeSecret = process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET;
+if (!stripeSecret) {
+  logger.warn('STRIPE_SECRET_KEY or STRIPE_SECRET env var not set. Stripe integration disabled');
+}
+const stripe = stripeSecret ? new Stripe(stripeSecret) : null;
 
 class StripeService {
   static async getCustomer(customerId) {
